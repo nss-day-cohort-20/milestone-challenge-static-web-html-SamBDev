@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    overflow: hidden;
+    width: 100%;
+    height: 75px;
+}
+
+.introduction {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.introduction > *{
+    text-align: center;
+    align-content: center;
+}
+
+.content{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.content > * {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.content > section {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.favoriteSites {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.favoriteSites > a {
+    width: 25%;
+}
+
+.futureProjects > div {
+    border: 1px solid black;
+    /*margin-bottom: 5px;
+    margin-top: 5px;*/
+    margin: 5px;
+}
